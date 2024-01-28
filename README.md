@@ -31,6 +31,9 @@ The data for the application is modeled in a relational database, which includes
 - Airports
   - ID
   - City
+ 
+  - ![image](https://github.com/eightimerkan/Flight-Search-API/assets/94108688/2a5d3950-b601-4414-9203-5f447ad9940f)
+
 
 ## CRUD Structure
 
@@ -49,12 +52,20 @@ The application follows a CRUD (Create, Read, Update, Delete) structure for both
   - Update: `/airports/{id}` (PUT)
   - Delete: `/airports/{id}` (DELETE)
 
+![image](https://github.com/eightimerkan/Flight-Search-API/assets/94108688/1cbe95bd-70b7-4a10-8dd5-3f32e80f8ad5)
+![image](https://github.com/eightimerkan/Flight-Search-API/assets/94108688/91facdeb-bf03-485c-96b4-1504d6615a88)
+
+
+
 ## Search API
 
 The application provides a search API that lists flights based on the departure and arrival locations, departure date, and return date. The API endpoint is `/search`.
 
 - Single Trip: `/search?departure={departure}&arrival={arrival}&departureDate={departureDate}`
 - Round Trip: `/search?departure={departure}&arrival={arrival}&departureDate={departureDate}&returnDate={returnDate}`
+
+- ![image](https://github.com/eightimerkan/Flight-Search-API/assets/94108688/7a207d2c-bb0a-4c9d-b5ca-46e549aa474e)
+
 
 ## RESTful Service
 
